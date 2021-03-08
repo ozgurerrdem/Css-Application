@@ -1,0 +1,147 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;    
+}
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+}
+header{    
+    background-color:#0f0f0f;    
+}
+.menu-bar{
+    margin:0 10%;
+}
+.menu-bar ul li{
+    display: inline-block;
+    margin: 20px 40px;
+}
+.menu-bar ul li:hover a{
+    color:orange;    
+}
+.menu-bar ul li a{
+    font-size:30px;
+    color: #f0f0f0;
+}
+.social{
+    margin:0 10%;    
+}
+.social ul{
+    position: absolute;
+    top:0px;
+    right:10%;
+}
+.social ul li{
+    display: inline-block;
+    margin: 20px 40px;
+}
+.social ul li a{
+    font-size:30px;
+    color: #f0f0f0;
+}
+.social ul li:hover .fb{
+    color:#4267B2;    
+} 
+.social ul li:hover .insta{
+    color:#C13584;    
+} 
+.social ul li:hover .tw{
+    color:#1DA1F2;    
+} 
+.trans300{
+    transition: 300ms;
+}
+main{
+    margin:0 10%;    
+}
+.box{
+    display: inline-block;    
+    width: 75%;
+    
+}
+.box img{
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.3);
+}
+.content{
+    margin: 20px;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical; 
+    overflow:hidden;
+
+}
+.entry{
+    box-shadow: 0 5px 20px rgba(0,0,0,.3);
+    border:1px solid #0f0f0f;
+    border-radius: 4px;
+    position: relative;
+    width: 33%;
+    display:inline-block;
+    padding:20px;
+    
+}
+@media screen and (max-width:1000){
+    .entry{
+        width: 49%;
+    }
+}
+h2{    
+    font-size:40px;
+    margin:20px;
+}
+.date{
+    position: absolute;
+    right: 10px;
+    top:5px;
+    color:#0f0f0f;
+}
+
+.others{
+    display: inline-block;
+    position: absolute;    
+    margin:30px 20px ;
+    margin-right: 0;
+    width: 18%;
+    
+}
+.others h3{
+    margin:10px;
+    font-size:25px;
+}
+.others ul li{
+    margin:5px 10px;    
+}
+.others ul li a{
+    color: blue;    
+}
+.others ul li:hover a{
+    color: tomato;    
+}
+footer{
+    margin-top:20px;
+    padding-top:10px;
+    height: 70px;
+    border-top:2px solid #f0f0f0;
+    background-color: lightgray;
+    position: relative;
+}
+footer p{    
+    color:whitesmoke;
+     
+}
+footer .copyright{
+    position: absolute;
+    right:2%;
+    top:35%;   
+}
+footer .other{
+    position: absolute;
+    left: 2%;
+    top:35%;   
+}
